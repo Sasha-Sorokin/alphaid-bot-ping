@@ -4,7 +4,8 @@
   "description": "A simple ping command for the Alphaid Bot",
   "main": "dist/Ping.js",
   "scripts": {
-    "build": "coffee -co dist/ src/"
+    "build": "coffee -co dist/ src/ && cp src/i18n dist/i18n/",
+    "build-win": "coffee -co dist/ src/ && xcopy \"src/i18n\" \"dist/i18n\" /i /s /y"
   },
   "repository": {
     "type": "git",
