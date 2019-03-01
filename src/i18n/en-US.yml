@@ -1,0 +1,3 @@
+PING_REPLY: "🚀 Pong!"
+
+PING_REPLY@DONE: "🚀 Pong — `{ping} ms`!"
